@@ -46,7 +46,7 @@ if ($_POST["provider"] === "infobip") {
         $number,
         [
             "from" => $twilio_number,
-            "body" => $message
+            "body" => $message,
         ]
     );
 
